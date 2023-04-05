@@ -1,0 +1,712 @@
+#spotlight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px 60px 0;
+}
+#spotlight div.spotlight-right {
+    position: relative;
+    padding: 80px 0;
+    width: 40%;
+}
+#spotlight div.spotlight-right h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#spotlight div.spotlight-right h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: 60px;
+    left: -10px;
+    rotate: -30deg;
+}
+#spotlight div.spotlight-right div.spotlight-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+#spotlight div.spotlight-right div.spotlight-text-container div.bar {
+    width: 12px;
+    height: 30px;
+    border-top: 1px solid #60625d;
+}
+#spotlight div.spotlight-right div.spotlight-text-container p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#spotlight div.spotlight-right div.spotlight-button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 80px;
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-button-container
+    div.spotlight-button-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background: #8873ef;
+    padding: 20px 25px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-button-container
+    div.spotlight-button-one
+    a {
+    color: #fff;
+    font-family: "poppinsbold";
+    font-size: 13px;
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-button-container
+    div.spotlight-button-one
+    div.spotlight-button-icon-one {
+    width: 20%;
+    filter: invert(1);
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-button-container
+    div.spotlight-button-two {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-button-container
+    div.spotlight-button-two
+    a {
+    font-family: "poppinsbold";
+    font-size: 13px;
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-button-container
+    div.spotlight-button-two
+    div.spotlight-button-icon-two {
+    width: 15%;
+}
+#spotlight div.spotlight-right div.spotlight-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+#spotlight div.spotlight-right div.spotlight-social p {
+    font-size: 15px;
+}
+#spotlight
+    div.spotlight-right
+    div.spotlight-social
+    div.spotlight-social-image-container {
+    width: 15%;
+    cursor: pointer;
+}
+#spotlight div.spotlight-left {
+    position: relative;
+    width: 50%;
+}
+#spotlight div.spotlight-left h5 {
+    position: absolute;
+    font-family: "poppinsbold";
+    font-size: 18px;
+    right: -65px;
+    top: 60px;
+    line-height: 1.6em;
+}
+#spotlight div.spotlight-left div.spotlight-image {
+    width: 120%;
+}
+#spotlight div.spotlight-left div.player-icon {
+    position: absolute;
+    right: 185px;
+    top: 310px;
+    width: 150px;
+}
+/* -----------------------------------------------#spotlight ends----------------------------------------------------- */
+#service {
+    background: #fcda69;
+    padding: 80px 0;
+}
+#service div.service-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#service div.service-container div.service-left {
+    position: relative;
+    width: 50%;
+}
+#service div.service-container div.service-left h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#service div.service-container div.service-left h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -10px;
+    left: -15px;
+    rotate: -30deg;
+}
+#service div.service-container div.service-left div.service-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+#service
+    div.service-container
+    div.service-left
+    div.service-text-container
+    div.bar {
+    width: 12px;
+    height: 30px;
+    border-top: 1px solid #60625d;
+}
+#service div.service-container div.service-left div.service-text-container p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#service div.service-container div.service-left div.seal {
+    margin-top: 240px;
+    width: 25%;
+}
+#service div.service-container ul.service-right {
+    width: 50%;
+}
+#service div.service-container ul.service-right li {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    width: 90%;
+}
+#service div.service-container ul.service-right li div.li-left {
+    padding-top: 20px;
+}
+#service div.service-container ul.service-right li div.li-left h5 {
+    font-size: 20px;
+    font-family: "poppinsbold";
+}
+#service div.service-container ul.service-right li div.li-right {
+    width: 100%;
+}
+#service div.service-container ul.service-right li div.li-right h4 {
+    font-size: 40px;
+    font-family: "poppinsmedium";
+    line-height: 1.6em;
+}
+#service
+    div.service-container
+    ul.service-right
+    li
+    div.li-right
+    div.explore-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#service
+    div.service-container
+    ul.service-right
+    li
+    div.li-right
+    div.explore-container.last-child {
+    margin-bottom: 0;
+}
+#service
+    div.service-container
+    ul.service-right
+    li
+    div.li-right
+    div.explore-container
+    p {
+    font-family: "poppinsmedium";
+}
+#service
+    div.service-container
+    ul.service-right
+    li
+    div.li-right
+    div.explore-container
+    div.explore-icon {
+    width: 10%;
+}
+/* -----------------------------------------------#service ends----------------------------------------------------- */
+#skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 0;
+}
+#skills div.skills-left {
+    position: relative;
+    width: 50%;
+}
+#skills div.skills-left h2 {
+    font-family: "poppinsbold";
+    line-height: 1.5em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#skills div.skills-left h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -10px;
+    left: -30px;
+    rotate: -30deg;
+}
+#skills div.skills-left div.skills-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+#skills div.skills-left div.skills-text-container div.bar {
+    width: 12px;
+    height: 30px;
+    border-top: 1px solid #60625d;
+}
+#skills div.skills-left div.skills-text-container p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#skills div.skills-left h5 {
+    font-family: "poppinsmedium";
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+#skills div.skills-left ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#skills div.skills-left ul li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+#skills div.skills-left ul li div.skills-icon {
+    width: 30%;
+}
+#skills div.skills-left ul li h6 {
+    font-family: "poppinsmedium";
+    font-size: 15px;
+    line-height: 1.5em;
+}
+#skills div.skills-right {
+    width: 50%;
+    padding-top: 80px;
+}
+#skills div.skills-right h5 {
+    font-size: 30px;
+    line-height: 1.5em;
+    font-family: "poppinsmedium";
+    margin-bottom: 40px;
+}
+#skills div.skills-right ul.skills-right-ul li.experience {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 25px;
+    border-top: 1px solid #000;
+    width: 90%;
+}
+#skills div.skills-right ul.skills-right-ul li.experience div.li-left {
+    width: 20%;
+}
+#skills div.skills-right ul.skills-right-ul li.experience div.li-left h5 {
+    font-size: 13px;
+    font-family: "poppinsbold";
+}
+#skills div.skills-right ul.skills-right-ul li.experience div.li-right h4 {
+    font-size: 20px;
+    font-family: "poppinsbold";
+    margin-bottom: 20px;
+}
+#skills div.skills-right ul.skills-right-ul li.experience div.li-right p {
+    font-size: 13px;
+    color: #60625d;
+    font-family: "poppinsmedium";
+    margin-bottom: 20px;
+}
+/* -----------------------------------------------#skills ends----------------------------------------------------- */
+#projects {
+    background: #fcda69;
+    padding: 80px 0;
+}
+#projects div.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#projects div.projects-container h3 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#projects div.projects-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: top;
+    gap: 30px;
+}
+#projects div.projects-container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+#projects div.projects-container ul li:first-child {
+    transform: translateY(5%);
+}
+#projects div.projects-container ul li:nth-child(2) {
+    transform: translateY(-20%);
+}
+#projects div.projects-container ul li:last-child {
+    transform: translateY(-44%);
+    position: relative;
+}
+#projects div.projects-container ul li div.project-tittle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#projects div.projects-container ul li div.project-tittle-container h4 {
+    font-size: 25px;
+    line-height: 1.4em;
+    font-family: "poppinsmedium";
+}
+#projects
+    div.projects-container
+    ul
+    li
+    div.project-tittle-container
+    div.explore-icon {
+    width: 13%;
+}
+#projects div.projects-container ul li p {
+    font-family: "poppinsmedium";
+    font-size: 14px;
+}
+#projects div.projects-container ul li div.project-image {
+    width: 350px;
+}
+#projects div.projects-container ul li div.seal {
+    width: 40%;
+    position: absolute;
+    bottom: -180px;
+    right: 0;
+}
+/* -----------------------------------------------#projects ends----------------------------------------------------- */
+#testimonial {
+    padding: 100px 0;
+}
+#testimonial div.testimonial-top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+#testimonial div.testimonial-top h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+}
+#testimonial div.testimonial-top h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -20px;
+    left: -25px;
+    rotate: -35deg;
+}
+#testimonial div.testimonial-top div.testimonial-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+#testimonial div.testimonial-top div.testimonial-text-container div.bar {
+    width: 12px;
+    height: 49px;
+    border-top: 1px solid #60625d;
+}
+#testimonial div.testimonial-top div.testimonial-text-container p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#testimonial div.testimonial-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 60px;
+}
+#testimonial div.testimonial-bottom div.arrow {
+    width: 16%;
+}
+#testimonial div.testimonial-bottom div.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#testimonial div.testimonial-bottom div.bottom-container div.testimonial-image {
+    width: 38%;
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5% 4%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #60625d;
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    h6 {
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.06em;
+    color: #60625d;
+    font-family: "poppinsmedium";
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    h6
+    span {
+    font-family: "poppinsbold";
+    color: #000;
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    h6
+    span.grey {
+    color: #60625d;
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    div.testimonial-author
+    h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: "poppinsbold";
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    div.testimonial-author
+    div.author-designation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    div.testimonial-author
+    div.author-designation
+    div.bar {
+    width: 12px;
+    border-top: 1px solid #60625d;
+}
+#testimonial
+    div.testimonial-bottom
+    div.bottom-container
+    div.testimonial-content
+    div.testimonial-author
+    div.author-designation
+    p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 14px;
+}
+/* -----------------------------------------------#testimonial ends----------------------------------------------------- */
+#contact {
+    background: #fcda69;
+    padding: 80px 0 30px 0;
+}
+#contact div.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #000;
+}
+#contact div.contact-container div.contact-left {
+    position: relative;
+    width: 45%;
+}
+#contact div.contact-container div.contact-left h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#contact div.contact-container div.contact-left h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -15px;
+    left: -20px;
+    rotate: -35deg;
+}
+#contact div.contact-container div.contact-left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+#contact div.contact-container div.contact-left ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 0 0 20px;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+#contact div.contact-container div.contact-left ul li div.li-left {
+    width: 60px;
+}
+#contact div.contact-container div.contact-left ul li div.li-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#contact div.contact-container div.contact-left ul li div.li-right p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#contact div.contact-container div.contact-left ul li div.li-right h5 {
+    font-family: "poppinsmedium";
+    font-size: 18px;
+    line-height: 1.5em;
+}
+#contact div.contact-container div.contact-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+#contact div.contact-container div.contact-right div.contact-right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #60625d;
+    width: 80%;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.tittle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.tittle
+    div.image {
+    width: 70px;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.tittle
+    h4 {
+    font-family: "poppinsbold";
+    font-size: 20px;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.explore-icon {
+    width: 150px;
+    margin-right: 25px;
+}
+/* -----------------------------------------------#contact ends----------------------------------------------------- */

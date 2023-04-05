@@ -1,0 +1,384 @@
+#spotlight {
+    background: #fcda69;
+    padding: 80px 0;
+}
+#spotlight div.spotlight-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#spotlight div.spotlight-container div.spotlight-left {
+    position: relative;
+    width: 50%;
+}
+#spotlight div.spotlight-container div.spotlight-left h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#spotlight div.spotlight-container div.spotlight-left h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -10px;
+    left: -15px;
+    rotate: -30deg;
+}
+#spotlight
+    div.spotlight-container
+    div.spotlight-left
+    div.spotlight-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+#spotlight
+    div.spotlight-container
+    div.spotlight-left
+    div.spotlight-text-container
+    div.bar {
+    width: 12px;
+    height: 50px;
+    border-top: 1px solid #60625d;
+}
+#spotlight
+    div.spotlight-container
+    div.spotlight-left
+    div.spotlight-text-container
+    p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#spotlight div.spotlight-container div.seal {
+    width: 12%;
+}
+/* -----------------------------------------------#spotlight ends----------------------------------------------------- */
+#form div.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 30px 0;
+}
+#form div.form-container div.top {
+    position: relative;
+}
+#form div.form-container div.top h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 30px;
+}
+#form div.form-container div.top h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 10px;
+    color: #8873ef;
+    top: -13px;
+    left: -30px;
+    rotate: -35deg;
+}
+#form div.form-container form {
+    width: 60%;
+}
+#form div.form-container form div.form-top {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #d5d5d5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px 0;
+}
+#form div.form-container form div.form-top div.form-element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+#form div.form-container form div.form-top div.form-element label {
+    color: #888787;
+    font-size: 12px;
+}
+#form
+    div.form-container
+    form
+    div.form-top
+    div.form-element
+    div.input-container {
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 10px;
+}
+#form
+    div.form-container
+    form
+    div.form-top
+    div.form-element
+    div.input-container:hover {
+    border: 1px solid #fcda69;
+}
+#form
+    div.form-container
+    form
+    div.form-top
+    div.form-element
+    div.input-container
+    div.flag {
+    width: 30px;
+    height: 30px;
+}
+#form
+    div.form-container
+    form
+    div.form-top
+    div.form-element
+    div.input-container
+    div.flag
+    img {
+    border-radius: 50%;
+}
+#form
+    div.form-container
+    form
+    div.form-top
+    div.form-element
+    div.input-container
+    input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 2.5em;
+}
+#form
+    div.form-container
+    form
+    div.form-top
+    div.form-element
+    div.input-container
+    span {
+    font-size: 16px;
+}
+#form div.form-container form div.form-bottom {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#form div.form-container form div.form-bottom div.grid-2fr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+#form
+    div.form-container
+    form
+    div.form-bottom
+    div.grid-2fr
+    div.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+#form
+    div.form-container
+    form
+    div.form-bottom
+    div.grid-2fr
+    div.select-container
+    label {
+    color: #888787;
+    font-size: 12px;
+}
+#form
+    div.form-container
+    form
+    div.form-bottom
+    div.grid-2fr
+    div.select-container
+    select.select-box {
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 10px;
+}
+#form
+    div.form-container
+    form
+    div.form-bottom
+    div.grid-2fr
+    div.select-container
+    select.select-box:hover {
+    border: 1px solid #fcda69;
+}
+#form div.form-container form div.form-bottom div.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+}
+#form div.form-container form div.form-bottom div.text-box label {
+    color: #888787;
+    font-size: 12px;
+}
+#form div.form-container form div.form-bottom div.text-box textarea {
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    padding: 15px 10px;
+}
+#form div.form-container div.submit-button {
+    display: flex;
+    justify-content: flex-end;
+}
+#form div.form-container div.submit-button button.form-button {
+    padding: 15px 80px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "poppinsmedium";
+}
+/* -----------------------------------------------#form ends----------------------------------------------------- */
+#contact {
+    padding: 80px 0 30px 0;
+}
+#contact div.contact-container {
+    background: #fcda69;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 3%;
+}
+#contact div.contact-container div.contact-left {
+    position: relative;
+    width: 45%;
+}
+#contact div.contact-container div.contact-left h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#contact div.contact-container div.contact-left h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -15px;
+    left: -20px;
+    rotate: -35deg;
+}
+#contact div.contact-container div.contact-left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+#contact div.contact-container div.contact-left ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 0 0 20px;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+#contact div.contact-container div.contact-left ul li div.li-left {
+    width: 60px;
+}
+#contact div.contact-container div.contact-left ul li div.li-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#contact div.contact-container div.contact-left ul li div.li-right p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#contact div.contact-container div.contact-left ul li div.li-right h5 {
+    font-family: "poppinsmedium";
+    font-size: 18px;
+    line-height: 1.5em;
+}
+#contact div.contact-container div.contact-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+#contact div.contact-container div.contact-right div.contact-right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #60625d;
+    width: 80%;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.tittle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.tittle
+    div.image {
+    width: 70px;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.tittle
+    h4 {
+    font-family: "poppinsbold";
+    font-size: 20px;
+}
+#contact
+    div.contact-container
+    div.contact-right
+    div.contact-right-content
+    div.explore-icon {
+    width: 150px;
+    margin-right: 25px;
+}
+/* -----------------------------------------------#contact ends----------------------------------------------------- */

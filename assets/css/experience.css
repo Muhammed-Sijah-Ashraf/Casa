@@ -1,0 +1,140 @@
+#spotlight {
+    background: #fcda69;
+    padding: 80px 0;
+}
+#spotlight div.spotlight-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#spotlight div.spotlight-container div.spotlight-left {
+    position: relative;
+    width: 50%;
+}
+#spotlight div.spotlight-container div.spotlight-left h2 {
+    font-family: "poppinsbold";
+    line-height: 1.3em;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#spotlight div.spotlight-container div.spotlight-left h4 {
+    position: absolute;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+    color: #8873ef;
+    top: -10px;
+    left: -15px;
+    rotate: -30deg;
+}
+#spotlight
+    div.spotlight-container
+    div.spotlight-left
+    div.spotlight-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+#spotlight
+    div.spotlight-container
+    div.spotlight-left
+    div.spotlight-text-container
+    div.bar {
+    width: 12px;
+    height: 50px;
+    border-top: 1px solid #60625d;
+}
+#spotlight
+    div.spotlight-container
+    div.spotlight-left
+    div.spotlight-text-container
+    p {
+    color: #60625d;
+    font-family: "poppinsmedium";
+    font-size: 13px;
+}
+#spotlight div.spotlight-container div.seal {
+    width: 12%;
+}
+/* -----------------------------------------------#spotlight ends----------------------------------------------------- */
+#skills {
+    padding: 80px 0 10px 0;
+}
+#skills h4 {
+    font-family: "poppinsmedium";
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.1921568627);
+}
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: 0 auto;
+}
+#skills ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+#skills ul li div.skills-icon {
+    width: 70px;
+}
+#skills ul li h6 {
+    font-family: "poppinsmedium";
+    font-size: 15px;
+    line-height: 1.5em;
+}
+/* -----------------------------------------------#skills ends----------------------------------------------------- */
+#experience {
+    padding: 80px 0;
+}
+#experience h5 {
+    font-size: 30px;
+    line-height: 1.5em;
+    font-family: "poppinsmedium";
+    margin-bottom: 20px;
+}
+#experience ul.skills-right-ul li.experience {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(139, 139, 139, 0.1921568627);
+    width: 100%;
+}
+#experience ul.skills-right-ul li.experience div.li-left {
+    width: 15%;
+}
+#experience ul.skills-right-ul li.experience div.li-left h5 {
+    font-size: 14px;
+    font-family: "poppinsbold";
+}
+#experience ul.skills-right-ul li.experience div.li-right {
+    width: 85%;
+}
+#experience ul.skills-right-ul li.experience div.li-right h4 {
+    font-size: 20px;
+    font-family: "poppinsbold";
+    margin-bottom: 20px;
+}
+#experience ul.skills-right-ul li.experience div.li-right p {
+    font-size: 15px;
+    color: #60625d;
+    font-family: "poppinsmedium";
+    margin-bottom: 20px;
+}
+#experience ul.skills-right-ul li.experience div.li-right span {
+    display: block;
+    width: 95%;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #60625d;
+    font-family: "poppinsmedium";
+    margin-bottom: 20px;
+}
+/* -----------------------------------------------#experience ends----------------------------------------------------- */
